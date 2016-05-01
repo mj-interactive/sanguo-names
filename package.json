@@ -1,0 +1,26 @@
+{
+  "name": "sanguo-names",
+  "version": "1.0.0",
+  "description": "Get random San Guo Yan Yi names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mj-interactive/sanguo-names.git"
+  },
+  "keywords": [
+    "San",
+    "Guo",
+    "Yan",
+    "Yi",
+    "names"
+  ],
+  "author": "Jie Li (http://www.mj-interactive.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mj-interactive/sanguo-names/issues"
+  },
+  "homepage": "https://github.com/mj-interactive/sanguo-names#readme"
+}
