@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mj-interactive/sanguo-names/issues"
   },
-  "homepage": "https://github.com/mj-interactive/sanguo-names#readme"
+  "homepage": "https://github.com/mj-interactive/sanguo-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }
