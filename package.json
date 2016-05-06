@@ -1,6 +1,6 @@
 {
   "name": "sanguo-names",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get random San Guo Yan Yi names",
   "main": "src/index.js",
   "scripts": {
