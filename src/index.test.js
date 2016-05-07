@@ -24,6 +24,14 @@ describe('sanguo-names', function() {
 			var randomName = sanguoNames.random();
 			expect(sanguoNames.all).to.include(randomName);
 		});
+
+		it('should return an array of random names from the sanguoNames.all if pass an number', function () {
+			var randomNames = sanguoNames.random(3);
+			expect(randomNames).to.have.length(3);
+			randomNames.forEach(function(name) {
+				expect(sanguoNames.all).to.include(name);
+			})
+		});
 	});
 
 })
