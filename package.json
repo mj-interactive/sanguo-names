@@ -1,14 +1,16 @@
 {
   "name": "sanguo-names",
-  "version": "1.2.1",
+  "version": "0.0.0-semantic-released",
   "description": "Get random San Guo Yan Yi names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mj-interactive/sanguo-names.git"
+    "url": "https://github.com/mj-interactive/sanguo-names.git"
   },
   "keywords": [
     "San",
@@ -28,6 +30,12 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "2.4.5"
+    "commitizen": "2.8.1",
+    "cz-conventional-changelog": "1.1.6",
+    "mocha": "2.4.5",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
