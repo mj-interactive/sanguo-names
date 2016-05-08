@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/jieli/.node/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test:single' ]
+2 info using npm@3.3.6
+3 info using node@v5.1.0
+4 verbose run-script [ 'pretest:single', 'test:single', 'posttest:single' ]
+5 info lifecycle sanguo-names@0.0.0-semantic-released~pretest:single: sanguo-names@0.0.0-semantic-released
+6 silly lifecycle sanguo-names@0.0.0-semantic-released~pretest:single: no script for pretest:single, continuing
+7 info lifecycle sanguo-names@0.0.0-semantic-released~test:single: sanguo-names@0.0.0-semantic-released
+8 verbose lifecycle sanguo-names@0.0.0-semantic-released~test:single: unsafe-perm in lifecycle true
+9 verbose lifecycle sanguo-names@0.0.0-semantic-released~test:single: PATH: /Users/jieli/.node/lib/node_modules/npm/bin/node-gyp-bin:/Users/jieli/Documents/Projects/Sandbox/sanguo-names/node_modules/.bin:/Users/jieli/Documents/Projects/Sandbox/sanguo-names/node_modules/.bin:/usr/local/Cellar/git/1.8.4.2/libexec/git-core:/Users/jieli/.node/bin:/usr/local/mysql/bin:/Users/jieli/bin/Sencha/Cmd/5.0.3.324:/usr/local/share/npm/bin:/usr/local/share/python:/Users/jieli/bin:/usr/local/bin:/Users/jieli/Development/android/tools:/Users/jieli/Development/android/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jieli/.rvm/bin:/usr/local/mongodb/bin
+10 verbose lifecycle sanguo-names@0.0.0-semantic-released~test:single: CWD: /Users/jieli/Documents/Projects/Sandbox/sanguo-names
+11 silly lifecycle sanguo-names@0.0.0-semantic-released~test:single: Args: [ '-c', 'mocha src/index.test.js' ]
+12 silly lifecycle sanguo-names@0.0.0-semantic-released~test:single: Returned: code: 1  signal: null
+13 info lifecycle sanguo-names@0.0.0-semantic-released~test:single: Failed to exec test:single script
+14 verbose stack Error: sanguo-names@0.0.0-semantic-released test:single: `mocha src/index.test.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/jieli/.node/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/jieli/.node/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid sanguo-names@0.0.0-semantic-released
+16 verbose cwd /Users/jieli/Documents/Projects/Sandbox/sanguo-names
+17 error Darwin 15.4.0
+18 error argv "/usr/local/bin/node" "/Users/jieli/.node/bin/npm" "run" "test:single"
+19 error node v5.1.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error sanguo-names@0.0.0-semantic-released test:single: `mocha src/index.test.js`
+22 error Exit status 1
+23 error Failed at the sanguo-names@0.0.0-semantic-released test:single script 'mocha src/index.test.js'.
+23 error This is most likely a problem with the sanguo-names package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     mocha src/index.test.js
+23 error You can get their info via:
+23 error     npm owner ls sanguo-names
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
